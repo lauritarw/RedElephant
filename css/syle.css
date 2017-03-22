@@ -25,15 +25,17 @@ p {
 /* body head style */
 
 .head {
-  display: inline;
-  padding-top: 1em;
   margin-bottom: -1em;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(255,250,250,0.5);
   }
 .head img {
   padding-left: 6em;
-  height: 6em;
+  height: 5em;
   display: inline-block;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 .head .nav-pills ul {
   display: inline-block;
@@ -41,7 +43,8 @@ p {
   }
 
 .nav {
-  margin-top: 1.5em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
 
 }
 .nav-pills a {
@@ -75,6 +78,7 @@ p {
   text-align: center;
   padding-bottom: 28em;
   margin-right: -14px;
+  margin-top: -20px;
 }
 
 .supporting h1 {
@@ -97,10 +101,10 @@ p {
 }
 
 .about h1{
-  font-size: 3em;
+  font-size: 6em;
   color: #A0A0A0;
   padding-top: 2em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0em;
 }
 a{
   font-size: 2em;
@@ -113,18 +117,16 @@ a:hover {
   }
 
 .about p {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: #A0A0A0;
   font-family: 'Jaldi', sans-serif;
   letter-spacing: 0.2em;
 
 }
-.about img {
-  float: right;
-}
+
 
 .about .container p {
-  margin-bottom: 6em;
+  margin-bottom: 1em;
 }
 
 
@@ -133,8 +135,13 @@ a:hover {
   margin-bottom: -2em;
 }
 
+.why h1 {
+  margin-bottom: 1em;
+}
+
 .why p {
-  margin-bottom: -3em;
+  margin-bottom: 5em;
+
 }
 
 #reasons {
@@ -151,13 +158,13 @@ a:hover {
 
 .footer h1 {
   color: white;
-  font-size: 2.5em;
+  font-size: 3em;
   padding-top: 0em;
 }
 
 .footer a {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: white;
   padding-bottom: 0em;
 }
