@@ -1,0 +1,158 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+  font-family: font-family: 'Jaldi', sans-serif;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* body head style */
+
+.head {
+  display: inline-block;
+  height: 6em;
+  width: 100%;
+  padding-top: 1em;
+}
+.head img {
+  padding-left: 6em;
+  height: 5em;
+}
+.head .nav-pills ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.nav-pills a {
+  display: inline;
+  text-decoration: none;
+  border: 1px solid red;
+  color: black;
+  font-size: 1em;
+}
+
+.nav-pills>li.active>a {
+  background-color: rgb(242, 36, 36);
+  color: white;
+}
+
+.nav-pills>li.active>a:hover {
+  background-color: rgb(242, 36, 36);
+  color: white;
+}
+
+
+.nav-pills>li>a:hover {
+  background-color: rgb(242, 36, 36);
+  color: white;
+}
+
+/* style supporting */
+.supporting {
+  height: 40em;
+  background: url("/images/background.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.supporting h1 {
+  color: black;
+  font-size: 5em;
+  padding-top: 3em;
+
+}
+
+.supporting span {
+  color: rgb(242, 36, 36);
+}
+
+/* style about */
+
+.about {
+  background-color: white;
+  height: 58em;
+  text-align: center;
+  display: inline-block;
+  padding-left: 8em;
+}
+
+.about h1{
+  font-size: 3em;
+  color: #A0A0A0;
+  padding-top: 2em;
+  letter-spacing: 0.2em;
+}
+a{
+  font-size: 2em;
+  color: #606060;
+  text-decoration: none;
+}
+a:hover {
+    color: #606060;
+    text-decoration: none;
+  }
+
+.about p {
+  font-size: 1.5em;
+  color: #A0A0A0;
+  font-family: 'Jaldi', sans-serif;
+  letter-spacing: 0.2em;
+
+}
+.about img {
+  float: right;
+}
+
+.about .container p {
+  margin-bottom: 6em;
+}
+
+
+.why .material-icons {
+  font-size: 88px;
+  margin-bottom: -2em;
+}
+
+.why p {
+  margin-bottom: -3em;
+}
+
+#reasons {
+  color: #606060;
+}
+
+/* style footer */
+
+.footer {
+  background-color: rgb(242, 36, 36);
+  text-align: center;
+}
+
+.footer h1 {
+  color: white;
+  font-size: 2.5em;
+  padding-top: 0em;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  padding-bottom: 0em;
+}
